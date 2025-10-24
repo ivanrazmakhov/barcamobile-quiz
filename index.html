@@ -16,17 +16,40 @@
   <div class="screen active" id="screen1">
     <div class="logo">
       <img src="assets/BARCA Mobile H RGB_w.png">
-    </div>
     <div class="quiz-box">
-      <h1>Where are you going?</h1>
-      <div class="options">
-        <button class="option-btn" onclick="nextScreen(2)">Europe</button>
-        <button class="option-btn" onclick="nextScreen(2)">North America</button>
-        <button class="option-btn" onclick="nextScreen(2)">Latin America</button>
-        <button class="option-btn" onclick="nextScreen(2)">Other</button>
-      </div>
+    <h1>Where are you going?</h1>
+    <div class="options">
+      <button class="option-btn" onclick="nextScreen(2)">
+        <svg class="icon" viewBox="0 0 64 64">
+          <path d="M10 32C10 17 22 6 36 6s18 9 18 26-12 26-26 26S10 47 10 32z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Europe
+      </button>
+
+      <button class="option-btn" onclick="nextScreen(2)">
+        <svg class="icon" viewBox="0 0 64 64">
+          <path d="M14 18c10-8 20-6 30 2 8 6 8 14 4 22s-12 10-20 8-14-10-16-18 0-10 2-14z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        North America
+      </button>
+
+      <button class="option-btn" onclick="nextScreen(2)">
+        <svg class="icon" viewBox="0 0 64 64">
+          <path d="M20 10c8 4 14 8 20 20s4 20-6 24-20-2-24-14 2-22 10-30z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Latin America
+      </button>
+
+      <button class="option-btn" onclick="nextScreen(2)">
+        <svg class="icon" viewBox="0 0 64 64">
+          <circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M24 28c4-6 12-8 18 0s2 10-2 12-12 0-16-12z" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        Other
+      </button>
     </div>
   </div>
+</div>
 
   <!-- Screen 2 -->
   <div class="screen" id="screen2">
