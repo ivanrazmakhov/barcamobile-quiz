@@ -51,6 +51,29 @@ h1 {
   width: 100%;
 }
 
+.option-btn {
+  background: rgba(255,255,255,0.15);
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 40px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.option-btn:hover {
+  background: #fff;
+  color: #00339F;
+  transform: scale(1.04);
+}
+
 .option-btn,
 .btn-download {
   background: rgba(255, 255, 255, 0.15);
@@ -70,6 +93,18 @@ h1 {
   background: #fff;
   color: #00339F;
   transform: scale(1.05);
+}
+
+.option-btn .icon {
+  width: 32px;
+  height: 32px;
+  color: currentColor;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.option-btn:hover .icon {
+  transform: scale(1.1);
 }
 
 .btn-download {
