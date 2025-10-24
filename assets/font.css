@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'FCBARCELONA';
-  src: url('./fonts/FCBARCELONA-Regular.otf') format('otf');
+  src: url('./fonts/FCBARCELONA-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'FCBARCELONA';
-  src: url('./fonts/FCBARCELONA-Bold.otf') format('otf');
+  src: url('./fonts/FCBARCELONA-Bold.otf') format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'FCBARCELONA';
-  src: url('./fonts/FCBARCELONA-Heavy.otf') format('otf');
+  src: url('./fonts/FCBARCELONA-Heavy.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
