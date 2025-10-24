@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: FCBARCELONA;
+  font-family: 'FCBARCELONA', sans-serif;
   color: #fff;
   background: linear-gradient(160deg, #00339F 0%, #E6007E 50%, #CF122D 100%);
   display: flex;
