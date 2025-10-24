@@ -100,7 +100,7 @@ h1 {
   align-items: center;
   justify-content: flex-start;
   gap: 14px;
-  text-align: left;
+  text-align: center;
 }
 
 .option-btn:hover {
