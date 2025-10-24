@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Barça Mobile Quiz</title>
+
+  <!-- Подключаем шрифты -->
+  <link rel="stylesheet" href="assets/fonts.css">
+
+  <!-- Основной CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Screen 1 -->
+  <div class="screen active" id="screen1">
+    <div class="logo">
+      <img src="assets/BARCA Mobile H RGB.png">
+    </div>
+    <div class="quiz-box">
+      <h1>Where are you going?</h1>
+      <div class="options">
+        <button class="option-btn" onclick="nextScreen(2)">Europe</button>
+        <button class="option-btn" onclick="nextScreen(2)">North America</button>
+        <button class="option-btn" onclick="nextScreen(2)">Latin America</button>
+        <button class="option-btn" onclick="nextScreen(2)">Other</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screen 2 -->
+  <div class="screen" id="screen2">
+    <div class="logo">
+      <img src="assets/BARCA Mobile H RGB.png">
+    </div>
+    <div class="quiz-box">
+      <h1>How many days do you need unlimited internet?</h1>
+      <div class="options">
+        <button class="option-btn" onclick="nextScreen(3)">1 Day</button>
+        <button class="option-btn" onclick="nextScreen(3)">2–3 Days</button>
+        <button class="option-btn" onclick="nextScreen(3)">4–7 Days</button>
+        <button class="option-btn" onclick="nextScreen(3)">More than 7 Days</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screen 3 -->
+  <div class="screen" id="screen3">
+    <div class="logo">
+      <img src="assets/BARCA Mobile H RGB.png">
+    </div>
+    <div class="quiz-box">
+      <h1>Have you used an e-SIM before?</h1>
+      <div class="options">
+        <button class="option-btn" onclick="nextScreen(4)">Yes</button>
+        <button class="option-btn" onclick="nextScreen(4)">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screen 4 -->
+  <div class="screen" id="screen4">
+    <h1>BARÇA MOBILE<br>GO GLOBAL, STAY CONNECTED</h1>
+    <p>Travel anywhere connected with your club.</p>
+    <button class="btn-download">Download now</button>
+    <img class="phone" src="assets/iPhone.png">
+    <footer>© 2025 Barça Mobile</footer>
+  </div>
+
+  <!-- Подключаем JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
