@@ -86,7 +86,7 @@ h1 {
 }
 
 .option-btn {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255,255,255,0.15);
   border: 2px solid #fff;
   color: #fff;
   font-size: 16px;
@@ -96,10 +96,6 @@ h1 {
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 14px;
   text-align: center;
 }
 
@@ -107,23 +103,6 @@ h1 {
   background: #fff;
   color: #00339F;
   transform: scale(1.04);
-}
-
-.option-btn .icon {
-  width: 28px;
-  height: 28px;
-  flex-shrink: 0;
-  fill: white;
-  transition: transform 0.3s ease;
-}
-
-.option-btn:hover .icon {
-  transform: scale(1.1);
-}
-
-.option-btn span {
-  flex: 1;
-  text-align: center;
 }
 
 /* ==============================
