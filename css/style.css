@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   font-family: 'FCBARCELONA', sans-serif;
   color: #fff;
-  background: linear-gradient(160deg, #244791 0%, #493188 50%, #642169 100%);
+  background: linear-gradient(90deg, rgba(10, 22, 75, 0.9), rgba(124, 30, 122, 0.9));
   display: flex;
   align-items: center;
   justify-content: center;
