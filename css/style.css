@@ -117,7 +117,7 @@ h1 {
 
 .download-btn {
   background: #ffffff;
-  color: #ffffff;
+  color: #00339F;
   font-weight: 700;
   font-size: 16px;
   border: none;
@@ -129,6 +129,7 @@ h1 {
 
 .download-btn:hover {
   background: #00339F;
+   color: #fff;
   transform: scale(1.05);
 }
 
